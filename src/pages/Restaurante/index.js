@@ -13,7 +13,7 @@ function Restaurante() {
 
                 {/* Criação de Container para Botões */}
                 <div className="containerBotaoHeader">
-                    <Link to='/incluirRest'>
+                    <Link to='/novoRest'>
                         <FiPlusCircle className="botaoHeader"/>
                     </Link>
 

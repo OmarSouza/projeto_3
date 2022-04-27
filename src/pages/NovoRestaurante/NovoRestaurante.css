@@ -1,0 +1,111 @@
+/* Estilo da Pagina Restaurantes */
+.componentNovoRest {
+    padding: 1rem;
+}
+
+/* Estilo do Header */
+.containerHeaderNovoRest {
+    position: block;
+    left: 0;
+    padding: 1rem 0;
+    background-color: #fff;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilo do Titulo do Header */
+.containerHeaderNovoRest label {
+    margin-left: 1rem;
+    flex: 1;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+/* Estilo não utilizado */
+.containerBotaoHeaderNovoRest {}
+
+/* Estilo dos botões do Header */
+.botaoHeaderNovoRest {
+    font-size: 16pt;
+    margin: 1rem;
+    color: #000;
+}
+
+/* Estilo do container de Entrada de Dados */
+.containerInfoNovoRest {
+    padding: 1rem;
+}
+
+/* Estilo do container de Entrada de Texto */
+.formNovoRest {
+    margin: 1rem;
+}
+
+.formNovoRest label {
+    width: 100%;
+    display: block;
+    font-size: 14pt;
+    margin-bottom: 0.5rem;
+}
+
+.formNovoRest input,
+.selectNovoRest{
+    width: 100%;
+    height: 2rem;
+    padding: 0.3rem 0;
+    margin: 0.5rem 0 1.5rem 0;
+    border: none;
+    border-bottom: thin solid #000;
+    font-size: 13pt;
+    outline: 0;
+}
+
+/* Estilo do container de Botões */
+.containerBotaoNovoRest {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botaoNovoRest {
+    padding: 0.5rem;
+    background-color: #FFF;
+    border: thin solid #000;
+    width: 45%;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.linkNovoRest {
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Definição de cores */
+.primarioNovoRest {
+    color: #fff;
+    background: #3b78ac;
+    border: thin solid #2a679b;
+}
+
+.primarioNovoRest:active {
+    background: #19568a;
+    border: thin solid #084579;
+}
+
+.quartenarioNovoRest {
+    color: #fff;
+    background: #e20c0c;
+    border: thin solid #e20f0a;
+}
+
+.quartenarioNovoRest:active {
+    background: #f20f1f;
+    border: thin solid #f20f1a;
+}

@@ -1,10 +1,10 @@
 /* Estilo da Pagina Restaurantes */
-.componentRestaurante {
+.componentReceita {
     padding: 1rem;
 }
 
 /* Estilo do Header */
-.containerHeaderRestaurante {
+.containerHeaderReceita {
     position: block;
     left: 0;
     padding: 1rem 0;
@@ -18,7 +18,7 @@
 }
 
 /* Estilo do Titulo do Header */
-.containerHeaderRestaurante label {
+.containerHeaderReceita label {
     margin-left: 1rem;
     flex: 1;
     font-size: 18pt;
@@ -26,37 +26,37 @@
 }
 
 /* Estilo não utilizado */
-.containerBotaoHeader {}
+.containerBotaoHeaderReceita {}
 
 /* Estilo dos botões do Header */
-.botaoHeader {
+.botaoHeaderReceita {
     font-size: 16pt;
     margin: 1rem;
     color: #000;
 }
 
 /* Estilo não Utilizado */
-.containerCardRestaurante {}
+.containerCardReceita {}
 
 /* Estilo do Card do Restaurante */
-.cardRestaurante {
+.cardReceita {
     border: thin solid #000;
     display: block;
     margin: 1rem;
     padding: 1rem;
 }
 
-.tituloCardRestaurante,
-.infoCardRestaurante {
+.tituloCardReceita,
+.infoCardReceita {
     margin: 0.5rem;
 }
 
-.tituloCardRestaurante label {
+.tituloCardReceita {
     font-size: 16pt;
     font-weight: 500;
 }
 
-.infoCardRestaurante label {
+.infoCardReceita {
     font-size: 14pt;
     width: 100%;
     display: block;
