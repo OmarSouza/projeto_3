@@ -1,0 +1,59 @@
+/* Estilo da Pagina Home */
+.componentHome {
+    padding-top: 2rem;
+}
+
+/* Estilo do Header */
+.containerHeaderHome {  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Estilo da Logo */
+.logoHome {
+    margin: 1rem;
+}
+
+.logoHome img {
+    width: 40%;
+}
+
+/* Estilo do botão de Retorno */
+.campoRetorno {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border: none;
+}
+
+.botaoRetorno {
+    font-size: 16pt;
+    color: #000;
+}
+
+/* Estilo do Container principal */
+.containerInfoHome{
+    margin: 7rem 2rem;
+}
+
+/* Estilo dos botões */
+.botaoHome {
+    margin: 2rem 2rem;
+    border: thin solid #000;
+    padding: 1.5rem;
+    display: block;
+    background: linear-gradient(90deg, rgba(0, 86, 59, 1) 0%, rgba(16, 164, 36, 1) 50%);
+    color: #FFF;
+    font-size: 16pt;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Estilo do Icon dentro do Botão */
+.botaoHomeIcon {
+    font-size: 18pt;
+    margin-right: 1rem;
+}

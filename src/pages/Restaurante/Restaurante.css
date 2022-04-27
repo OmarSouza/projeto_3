@@ -1,0 +1,65 @@
+/* Estilo da Pagina Restaurantes */
+.componentRestaurante {
+    padding: 1rem;
+}
+
+/* Estilo do Header */
+.containerHeaderRestaurante {
+    position: block;
+    left: 0;
+    padding: 1rem 0;
+    background-color: #fff;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilo do Titulo do Header */
+.containerHeaderRestaurante label {
+    margin-left: 1rem;
+    flex: 1;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+/* Estilo não utilizado */
+.containerBotaoHeader {}
+
+
+/* Estilo dos botões do Header */
+.botaoHeader {
+    font-size: 16pt;
+    margin: 1rem;
+    color: #000;
+}
+
+/* Estilo não Utilizado */
+.containerCardRestaurante {}
+
+/* Estilo do Card do Restaurante */
+.cardRestaurante {
+    border: thin solid #000;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.tituloCardRestaurante,
+.infoCardRestaurante {
+    margin: 1rem;
+}
+
+.tituloCardRestaurante label {
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.infoCardRestaurante label {
+    font-size: 14pt;
+    width: 100%;
+    display: block;
+    margin-top: 0.2rem;
+}
