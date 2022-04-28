@@ -13,7 +13,7 @@ function Receita() {
 
                 {/* Criação de Container para Botões */}
                 <div className="containerBotaoHeaderReceita">
-                    <Link to='/incluirRec'>
+                    <Link to='/novaRec'>
                         <FiPlusCircle className="botaoHeaderReceita"/>
                     </Link>
 

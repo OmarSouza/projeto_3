@@ -1,0 +1,134 @@
+/* Estilo da Pagina Receita */
+.componentNovaRec {
+    padding: 1rem;
+}
+
+/* Estilo do Header */
+.containerHeaderNovaRec {
+    position: block;
+    left: 0;
+    padding: 1rem 0;
+    background-color: #fff;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilo do Titulo do Header */
+.containerHeaderNovaRec label {
+    margin-left: 1rem;
+    flex: 1;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+/* Estilo não utilizado */
+.containerBotaoHeaderNovaRec {}
+
+/* Estilo dos Botões do Header */
+.botaoHeaderNovaRec {
+    font-size: 16pt;
+    margin: 1rem;
+    color: #000;
+}
+
+/* Estilo do container de Entrada de Dados */
+.containerInfoNovaRec {
+    padding: 1rem;
+}
+
+/* Estilo do Container de Entrada de Texto */
+.formNovaRec {
+    margin: 1rem;
+}
+
+.formNovaRec label {
+    width: 100%;
+    display: block;
+    font-size: 14pt;
+    margin-bottom: 0.5rem;
+}
+
+.formNovaRec input,
+.selectNovaRec {
+    width: 100%;
+    height: 2rem;
+    padding: 0.3rem 0;
+    margin: 0.5rem 0 1.5rem 0;
+    border: none;
+    border-bottom: thin solid #000;
+    font-size: 13pt;
+    outline: 0;
+}
+
+.formNovaRec textarea {
+    resize: none;
+    width: 100%;
+}
+/* Estilo do Container de Ingredientes */
+.ingredientesNovaRec {
+    position: block;
+    left: 0;
+    padding: 1rem 0;
+    background-color: #fff;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconIngredientesNovaRec {
+    font-size: 16pt;
+    color: #000;
+}
+
+/* Estilo do Container de Botões */
+.containerBotaoNovaRec {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botaoNovaRec {
+    padding: 0.5rem;
+    background-color: #FFF;
+    border: thin solid #000;
+    width: 45%;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.linkNovaRec {
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Definições de Cores */
+.primarioNovaRec {
+    color: #fff;
+    background: #3b78ac;
+    border: thin solid #2a679b;
+}
+
+.primarioNovaRec:active {
+    background: #19568a;
+    border: thin solid #084579;
+}
+
+.quartenarioNovaRec {
+    color: #fff;
+    background: #e20c0c;
+    border: thin solid #e20f0a;
+}
+
+.quartenarioNovaRec:active {
+    background: #f20f1f;
+    border: thin solid #f20f1a;
+}
