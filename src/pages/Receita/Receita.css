@@ -51,14 +51,19 @@
     margin: 0.5rem;
 }
 
-.tituloCardReceita {
+.tituloCardReceita label {
     font-size: 16pt;
     font-weight: 500;
 }
 
-.infoCardReceita {
+.infoCardReceita label {
     font-size: 14pt;
     width: 100%;
     display: block;
     margin-top: 0.2rem;
+}
+
+.botaoCardReceita {
+    color: #000;
+    text-decoration: none;
 }

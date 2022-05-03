@@ -62,3 +62,8 @@
     display: block;
     margin-top: 0.2rem;
 }
+
+.botaoCardRestaurante {
+    color: #000;
+    text-decoration: none;
+}

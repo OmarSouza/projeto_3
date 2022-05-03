@@ -1,0 +1,92 @@
+/* Estilo da Pagina Visualização Receita */
+.componentVisRec {
+    padding: 1rem;
+}
+
+/* Estilo do Header */
+.containerHeaderVisRec {
+    position: block;
+    left: 0;
+    padding: 1rem 0;
+    background-color: #fff;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilo do Titulo do Header */
+.containerHeaderVisRec label {
+    margin-left: 1rem;
+    flex: 1;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+/* Estilo não utilizado */
+.containerBotaoHeaderVisRec {}
+
+/* Estilo do Botões do Header */
+.botaoHeaderVisRec {
+    font-size: 16pt;
+    margin: 1rem;
+    color: #000;
+}
+
+/* Estilo do Container de Informações */
+.containerInfoVisRec {
+    padding: 1rem;
+}
+
+.formVisRec {
+    margin: 1rem;
+}
+
+.formVisRec label {
+    width: 100%;
+    display: block;
+    font-size: 14pt;
+    margin: 1rem 0;
+}
+
+.formVisRec textarea {
+    resize: none;
+    width: 100%;
+}
+
+/* Estilo do Container de Botões */
+.containerBotaoVisRec {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botaoVisRec {
+    padding: 0.5rem;
+    background-color: #FFF;
+    border: thin solid #000;
+    width: 100%;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.linkVisRec {
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Definição de Cores */
+.primarioVisRec {
+    color: #fff;
+    background: #3b78ac;
+    border: thin solid #2a679b;
+}
+
+.primarioVisRec:active {
+    background: #19568a;
+    border: thin solid #084579;
+}

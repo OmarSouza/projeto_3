@@ -1,0 +1,92 @@
+/* Estilo da Pagina Visualização Resteita */
+.componentVisRest {
+    padding: 1rem;
+}
+
+/* Estilo do Header */
+.containerHeaderVisRest {
+    position: block;
+    left: 0;
+    padding: 1rem 0;
+    background-color: #fff;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-diResttion: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilo do Titulo do Header */
+.containerHeaderVisRest label {
+    margin-left: 1rem;
+    flex: 1;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+/* Estilo não utilizado */
+.containerBotaoHeaderVisRest {}
+
+/* Estilo do Botões do Header */
+.botaoHeaderVisRest {
+    font-size: 16pt;
+    margin: 1rem;
+    color: #000;
+}
+
+/* Estilo do Container de Informações */
+.containerInfoVisRest {
+    padding: 1rem;
+}
+
+.formVisRest {
+    margin: 1rem;
+}
+
+.formVisRest label {
+    width: 100%;
+    display: block;
+    font-size: 14pt;
+    margin: 1rem 0;
+}
+
+.formVisRest textarea {
+    resize: none;
+    width: 100%;
+}
+
+/* Estilo do Container de Botões */
+.containerBotaoVisRest {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botaoVisRest {
+    padding: 0.5rem;
+    background-color: #FFF;
+    border: thin solid #000;
+    width: 100%;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.linkVisRest {
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Definição de Cores */
+.primarioVisRest {
+    color: #fff;
+    background: #3b78ac;
+    border: thin solid #2a679b;
+}
+
+.primarioVisRest:active {
+    background: #19568a;
+    border: thin solid #084579;
+}

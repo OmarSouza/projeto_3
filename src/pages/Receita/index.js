@@ -25,16 +25,18 @@ function Receita() {
 
             {/* Criação de Container para Card de Receitas */}
             <div class="containerCardReceita">
-                <div class="cardReceita">
-                    <div class="tituloCardReceita">
-                        <label>Receita A</label>
-                    </div>
+                <Link to='/visRec' className="botaoCardReceita">
+                    <div class="cardReceita">
+                        <div class="tituloCardReceita">
+                            <label>Receita A</label>
+                        </div>
                         
-                    <div class="infoCardReceita">
-                        <label for="ruaCard">Rua A, 123</label>
-                        <label for="cidadeCard">Cidade A</label>
+                        <div class="infoCardReceita">
+                            <label for="ruaCard">Rua A, 123 </label>
+                            <label for="cidadeCard">Cidade A</label>
+                        </div>
                     </div>
-                </div>
+                </Link>
             </div>
 
         </div>
